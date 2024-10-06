@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8"> <!--codificación-->
+    <meta name="viewport" content="with=device-width"> <!--ajusta al ancho del dispositivo-->
+    
+    <title>Mauricio</title> <!--Título-->
+
+    <meta name="description" content="Este es el portfolio de Mauricio, un futuro ingeniero informático">
+
+    <!--Open graph (Vista previa de los enlaces)
+    <meta name="og:title" content="Portfolio de Mauricio">
+    <meta property="og:description" content="Este es el portfolio de Mauricio, un futuro ingeniero informático">
+    <meta property="og:image" content="Foto_perfil.jpg">
+    <meta property="og:image:alt" content="Foto de perfil de Mauricio">-->
+
+    <meta name="robots" content="index, follow">
+    <meta name="theme-color" content="#8f7ada">  <!--Le da color-->
+
+    <link rel="icon" type="image/jpg" href="images/self.webp">  <!--establece el icono-->
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+      <nav class="menu">
+        <a class="menu__item" href="#present">Contacto</a>
+        <a class="menu__item" href="#pro">Proyectos</a>
+        <a class="menu__item" href="#about">Sobre mí</a>
+      </nav>  
+    </header>
+
+    <main>
+
+        <section class="presentation" id="present">
+            <div class="presentation__intro">
+                <img src="images/self.webp" id="self">
+                <h1>Hola, soy Mauricio</h1>
+            </div>
+            <div class="presentation__info">
+                <p>Estudiante de <strong>Ingeniería de Computadores</strong> en la Universidad
+                    Politécnica de Madrid, España.
+                </p>
+            </div>
+            <div class="presentation__buttons" id="contact">
+                <nav class="links">
+                    <a class="link" href="https://github.com/MeaBurro47?tab=overview&from=2024-06-01&to=2024-06-25" 
+                        target="_blank"><img src="https://svgl.app/library/github-dark.svg" class="ico">Github</a>     
+                    <a class="link" href="https://www.linkedin.com/in/mauricio-pimienta-3838711a2/" 
+                        target="_blank"><img src="https://svgl.app/library/linkedin.svg" class="ico">LinkedIn</a>
+                    <a class="link" href="mailto:mauriciopimienta.f@gmail.com">
+                        <img src="https://svgl.app/library/gmail.svg" class="ico">mauriciopimienta.f@gmail.com</a>
+                </nav>
+            </div>
+        </section>
+
+        <section class="projects" id="pro">
+            <h2><img class="title_img" id="projects_img" src="https://cdn-icons-png.flaticon.com/128/12967/12967694.png">Proyectos</h2>
+            <div class="projects__item">
+                <div class="img_container">
+                    <img class="project__image" src="images/cuentas.webp">
+                </div>
+                <div class="project__info">
+                    <h3>App de cuentas</h3>
+                    <ul class="project__techs">
+                        <li class="tech"><img src="https://svgl.app/library/python.svg" class="ico">Python</li>
+                        
+                    </ul>
+                    <p class="project__description">Una app desarrollada en python que 
+                                                    gestiona los ingresos y 
+                                                    gastos de una persona, con posibilidad 
+                                                    de gestionar varios usuarios.</p>
+                        <nav class="links">
+                            <a class="link"><img src="https://svgl.app/library/github-dark.svg" class="ico">Code</a>
+                            <a class="link"><img src="https://cdn-icons-png.flaticon.com/128/2696/2696513.png" class="ico">Preview</a>
+                        </nav>
+                </div>
+            </div>
+            <div class="projects__item">
+                <div class="img_container">
+                    <img class="project__image" src="images/latest_image.webp">
+                </div>
+                <div class="project__info">
+                    <h3>Pantalla medidora</h3>
+                    <ul class="project__techs">
+                        <li class="tech"><img src="https://cdn-icons-png.flaticon.com/128/10288/10288082.png" class="ico">Arduino</li>
+                        <li class="tech"><img src="https://svgl.app/library/c++.svg" class="ico">C++</li>
+                    </ul>
+                    <p class="project__description">Un medidor de temperatura, humedad y
+                                                    luminosidad en tiempo real, además de 
+                                                    incorporar un cronómetro con alarma, 
+                                                    todo controlado mediante un mando.
+                    </p>
+                    <nav class="links">
+                        <a class="link"><img src="https://svgl.app/library/github-dark.svg" class="ico">Code</a>
+                        <a class="link" href="projects/display/index.html"><img src="https://cdn-icons-png.flaticon.com/128/2696/2696513.png" class="ico">Preview</a>
+                    </nav>
+                </div>
+            </div>
+            <div class="projects__item">
+                <div class="img_container">
+                    <img class="project__image" src="images/password.webp">
+                </div>
+                <div class="project__info">
+                    <h3>Analizador de contraseñas</h3>
+                    <ul class="project__techs">
+                        <li class="tech"><img src="https://svgl.app/library/python.svg" class="ico">Python</li>
+                    </ul>
+                    <p class="project__description">Una app que analiza la seguridad de una contraseña
+                                                    personal, diciendo cómo puede mejorarse, además de 
+                                                    proporcionar una contraseña "aleatoria" que cumpla 
+                                                    los parámetros analizados
+                    </p>
+                    <nav class="links">
+                        <a class="link"><img src="https://svgl.app/library/github-dark.svg" class="ico">Code</a>
+                        <a class="link"><img src="https://cdn-icons-png.flaticon.com/128/2696/2696513.png" class="ico">Preview</a>
+                    </nav>
+                </div>
+            </div>
+            
+        </section>
+
+    </main>
+
+    <aside class="about_me" id="about">
+        <div class="text">
+            <h2><img src="https://cdn-icons-png.flaticon.com/128/16842/16842355.png" class="title_img">Un poco sobre mí</h2>
+
+            <div class="parragraphs">
+                <p class="about_description">Me llamo Mauricio Pimienta y soy un estudiante
+                    de Informática apasionado por el mundo de la tecnología.
+                </p>
+    
+                <p class="about_description">Desde muy joven comencé a adentrarme en este mundo, realizando 
+                    proyectos sencillos que cada vez adquieren un poco más de
+                    complejidad, permitiéndome adquirir nuevos conocimientos.
+                </p>
+            </div>
+            
+        </div>
+
+        <div class="self_container"><img src="images/other_self.webp" id="other_self"></div>
+        
+
+    </aside>
+    <aside class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+    </aside>
+</body>
