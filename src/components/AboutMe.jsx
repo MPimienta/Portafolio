@@ -4,7 +4,7 @@ export default function AboutMe() {
   return (
     <>
       <div className="text">
-        <h2><img src="/images/about-me.svg" loading="lazy" alt="general person icon to represent the person" className="title_img"/>A little about me</h2>
+        <h2><img src="./images/about-me.svg" loading="lazy" alt="general person icon to represent the person" className="title_img"/>A little about me</h2>
 
         <div className="parragraphs">
           <p className="about_description">Hi! I'm Mauricio Pimienta, a Computer Engineering student and passionate about technology and constant learning. I enjoy exploring new ideas and expanding my knowledge in different fields.

@@ -17,7 +17,7 @@ export default function Project({project}) {
         <p className="project__description">{project.description}</p>
         <nav className="links">
             <a className="link" href={project.link}>
-              <img src="/images/link.svg" alt="image of a link" loading="lazy" className="ico"/>Preview
+              <img src="./images/link.svg" alt="image of a link" loading="lazy" className="ico"/>Preview
             </a>
             <a className="link" href={project.repo}>
               <img src="./images/github.svg" alt="github logo" loading="lazy" className="ico"/>Code
