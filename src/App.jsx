@@ -18,6 +18,10 @@ function App() {
     description: "The website for the restaurant group XunsetGroup. It consists of a landing page with links to each section's respective pages, showing all relevant information while maintaining interactivity and accessibility.",
     link: "https://www.xunsetgroup.com",
     repo: "https://github.com/MeaBurro47/measures-lcdscreen.git",
+    tech_1: "React",
+    tech_1_icon: "./images/react.svg",
+    tech_2: "CSS",
+    tech_2_icon: "./images/css.svg",
   }
 
   const project_2 = {
@@ -26,6 +30,10 @@ function App() {
     description: "A real-time temperature, humidity, and brightness meter, also featuring a stopwatch with alarm, all controlled via a remote.",
     link: "https://www.xunsetgroup.com",
     repo: "https://github.com/MeaBurro47/measures-lcdscreen.git",
+    tech_1: "Arduino",
+    tech_1_icon: "./images/arduino.svg",
+    tech_2: "C++",
+    tech_2_icon: "./images/cpp.svg",
   }
 
   const project_3 = {
@@ -34,6 +42,10 @@ function App() {
     description: "An app developed in Python that manages a person's income and expenses, with the possibility to manage multiple users.",
     link: "https://www.xunsetgroup.com",
     repo: "https://github.com/MeaBurro47/measures-lcdscreen.git",
+    tech_1: "Python",
+    tech_1_icon: "./images/python.svg",
+    tech_2: "TkInter",
+    tech_2_icon: "./images/tkinter.svg",
   }
 
 

@@ -11,7 +11,10 @@ export default function Project({project}) {
         <h3>{project.name}</h3>
         <ul className="project__techs">
           <li className="tech">
-            <img src="./images/react.svg" loading="lazy" alt="technology used image" className="ico"/>React
+            <img src={project.tech_1_icon} loading="lazy" alt="technology used image" className="ico"/>{project.tech_1}
+          </li>
+          <li className="tech">
+            <img src={project.tech_2_icon} loading="lazy" alt="technology used image" className="ico"/>{project.tech_2}
           </li>
         </ul>
         <p className="project__description">{project.description}</p>
