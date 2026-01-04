@@ -1,0 +1,27 @@
+.lcd-detail-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+  color: #fff;
+}
+
+.lcd-detail-container h1 {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.lcd-detail-container section {
+  margin-bottom: 40px;
+}
+
+.image-placeholder,
+.video-placeholder,
+.code-block {
+  background-color: #1e293b;
+  border: 2px dashed #475569;
+  padding: 40px;
+  text-align: center;
+  border-radius: 8px;
+  margin-top: 10px;
+  color: #94a3b8;
+}

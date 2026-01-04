@@ -5,8 +5,7 @@
     gap: 20px;
     flex-wrap: nowrap;
     width: 100%;
-    max-width: 100%;
-    /* Prevent overflow */
+    max-width: 100vw;
     box-sizing: border-box;
 }
 
@@ -22,8 +21,7 @@
     height: auto;
     aspect-ratio: 16/9;
     width: 500px;
-    max-width: 100%;
-    /* Prevent overflow */
+    max-width: 100vw;
     border-radius: 15px;
     background: radial-gradient(#172b59, #021b27);
     overflow: clip;
@@ -47,7 +45,8 @@
     gap: 5px;
     align-items: flex-start;
     width: 500px;
-    max-width: 100%;
+    max-width: 100vw;
+    /* Prevent overflow */
     /* Prevent overflow */
     box-sizing: border-box;
 }
@@ -119,7 +118,8 @@ h3 {
     .img_container,
     .project__info {
         width: 350px;
-        max-width: 100%;
+        max-width: 100vw;
+        /* Prevent overflow */
         /* Prevent overflow */
     }
 
@@ -135,14 +135,16 @@ h3 {
         align-items: center;
         gap: 20px;
         width: 100%;
-        max-width: 100%;
+        max-width: 100vw;
+        /* Prevent overflow */
         /* Prevent overflow */
         box-sizing: border-box;
     }
 
     .img_container {
         width: 100%;
-        max-width: 100%;
+        max-width: 100vw;
+        /* Prevent overflow */
         /* Prevent overflow */
         aspect-ratio: 16/9;
         box-sizing: border-box;
@@ -150,7 +152,8 @@ h3 {
 
     .project__info {
         width: 100%;
-        max-width: 100%;
+        max-width: 100vw;
+        /* Prevent overflow */
         /* Prevent overflow */
         box-sizing: border-box;
     }
