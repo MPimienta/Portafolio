@@ -193,9 +193,17 @@ const LcdDetail = () => {
 
       <section className="video-demo">
         <h2>Video Demonstration</h2>
-        <div className="video-placeholder">
-          {/* <a href={videoLink}>Watch Video</a> or embed */}
-          [Video Link/Embed Placeholder]
+        <div className="video-wrapper">
+          <video
+            controls
+            preload="metadata"
+            poster="../videos/portada-video.png"
+            width="100%">
+
+            <source src="../videos/lcd-system.mp4" type="video/mp4" />
+
+            Tu navegador no soporta la etiqueta de video.
+          </video>
         </div>
       </section>
     </div>

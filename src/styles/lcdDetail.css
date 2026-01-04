@@ -14,15 +14,7 @@
   margin-bottom: 40px;
 }
 
-.video-placeholder {
-  background-color: #1e293b;
-  border: 2px dashed #475569;
-  padding: 40px;
-  text-align: center;
-  border-radius: 8px;
-  margin-top: 10px;
-  color: #94a3b8;
-}
+
 
 .project-image {
   width: 100%;
@@ -64,4 +56,19 @@
   color: #e2e8f0;
   line-height: 1.5;
   white-space: pre;
+}
+
+.video-wrapper {
+  max-width: 800px;
+  margin: 20px auto;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+  border: 1px solid #e0e0e0;
+}
+
+video {
+  display: block;
+  width: 100%;
+  height: auto;
 }
