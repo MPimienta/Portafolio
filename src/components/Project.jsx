@@ -12,12 +12,11 @@ export default function Project({ project }) {
       <div className="project__info">
         <h3>{project.name}</h3>
         <ul className="project__techs">
-          <li className="tech">
-            <img src={project.tech_1_icon} loading="lazy" alt="technology used image" className="ico" />{project.tech_1}
-          </li>
-          <li className="tech">
-            <img src={project.tech_2_icon} loading="lazy" alt="technology used image" className="ico" />{project.tech_2}
-          </li>
+          {project.techs.map((tech, index) => (
+            <li className="tech" key={index}>
+              <img src={tech.icon} loading="lazy" alt="technology used image" className="ico" />{tech.name}
+            </li>
+          ))}
         </ul>
         <p className="project__description">{project.description}</p>
         <nav className="links">
