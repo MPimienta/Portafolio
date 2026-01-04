@@ -1,5 +1,5 @@
 .lcd-detail-container {
-  padding: 20px;
+  padding: 30px;
   max-width: 800px;
   margin: 0 auto;
   color: #fff;
@@ -14,9 +14,7 @@
   margin-bottom: 40px;
 }
 
-.image-placeholder,
-.video-placeholder,
-.code-block {
+.video-placeholder {
   background-color: #1e293b;
   border: 2px dashed #475569;
   padding: 40px;
@@ -24,4 +22,46 @@
   border-radius: 8px;
   margin-top: 10px;
   color: #94a3b8;
+}
+
+.project-image {
+  width: 100%;
+}
+
+.project-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  object-fit: fill;
+}
+
+.code-block {
+  background-color: #1e293b;
+  padding: 20px;
+  border-radius: 8px;
+  margin-top: 20px;
+  border: 1px solid #334155;
+  display: grid;
+  max-width: 100%;
+  min-width: 0;
+}
+
+.code-block pre {
+  margin: 0;
+  overflow-x: auto;
+  width: 100%;
+  scrollbar-width: thin;
+  scrollbar-color: #475569 #1e293b;
+  padding-bottom: 10px;
+  background-color: #091220;
+  border-radius: 8px;
+}
+
+.code-block code {
+  font-family: 'Consolas', 'Monaco', 'Courier New', monospace;
+  font-size: 0.9rem;
+  color: #e2e8f0;
+  line-height: 1.5;
+  white-space: pre;
 }
