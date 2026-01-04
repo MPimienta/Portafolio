@@ -1,4 +1,4 @@
-import { useState } from 'react'
+
 
 import './App.css'
 
@@ -52,23 +52,23 @@ function App() {
   return (
     <>
       <header>
-        <NavBar/>
+        <NavBar />
       </header>
       <main>
-        <Hero/>
+        <Hero />
         <section className="projects" id="pro">
-          <h2><img className="title_img" id="projects_img" loading="lazy" alt="gear icon for the projects section" src="./images/projects.svg"/>Projects</h2>
-          <Project project={project_1}/>
-          <Project project={project_2}/>
-          <Project project={project_3}/>
+          <h2><img className="title_img" id="projects_img" loading="lazy" alt="gear icon for the projects section" src="./images/projects.svg" />Projects</h2>
+          <Project project={project_1} />
+          <Project project={project_2} />
+          <Project project={project_3} />
         </section>
 
         <section className="about_me" id="about">
-          <AboutMe/>
+          <AboutMe />
         </section>
 
         <aside className="floating_dots">
-          <FloatingDots/>
+          <FloatingDots />
         </aside>
 
       </main>
