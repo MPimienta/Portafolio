@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import '../App.css'
 
 import NavBar from '../components/NavBar'
@@ -25,7 +24,7 @@ function Home() {
     name: "LCD Measuring System",
     image: "./images/latest_image.webp",
     description: "A real-time temperature, humidity, and brightness meter, also featuring a stopwatch with alarm, all controlled via a remote.",
-    link: "/project/lcd-measuring-system", // Updated link
+    link: "/project/lcd-measuring-system",
     repo: "https://github.com/MeaBurro47/measures-lcdscreen.git",
     techs: [
       { name: "Arduino", icon: "./images/arduino.svg" },
@@ -34,13 +33,14 @@ function Home() {
   }
 
   const project_3 = {
-    name: "Finance Manager",
-    image: "./images/cuentas.webp",
-    description: "An app developed in Python that manages a person's income and expenses, with the possibility to manage multiple users.",
-    link: "https://www.xunsetgroup.com",
-    repo: "https://github.com/MeaBurro47/measures-lcdscreen.git",
+    name: "Telegram Quiz Bot",
+    image: "./images/quiz_bot.webp",
+    description: "An asynchronous trivia bot designed for the Telegram platform. It handles dynamic question sets using Pandas, manages persistent user scoring with SQL, and features an interactive interface based on inline keyboards.",
+    link: "https://t.me/Questionary47_bot",
+    repo: "https://github.com/MPimienta/Quiz-Bot.git",
     techs: [
       { name: "Python", icon: "./images/python.svg" },
+      { name: "SQL", icon: "./images/sql.svg" }
     ]
   }
 
