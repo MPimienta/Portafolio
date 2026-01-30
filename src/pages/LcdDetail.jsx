@@ -15,7 +15,7 @@ const LcdDetail = () => {
           La característica distintiva del proyecto es su interfaz de control remoto infrarrojo (IR), que permite al usuario navegar por un menú dinámico y operar un temporizador programable sin contacto físico. El firmware, desarrollado en C++, implementa una arquitectura no bloqueante (utilizando millis() y librerías asíncronas) para gestionar la lectura de sensores, la decodificación de señales IR y la reproducción de melodías a través de un buzzer pasivo simultáneamente.
         </p>
         <div className="project-image">
-          <img src="../images/latest_image.webp" alt="Project View" />
+          <img src="images/latest_image.webp" alt="Project View" />
         </div>
       </section>
 
